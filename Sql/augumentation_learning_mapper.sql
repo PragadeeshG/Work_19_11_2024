@@ -1,0 +1,16 @@
+create table if not exists augumentation_learning_mapper(
+data_learning_code Integer not null,
+augumentation_learning_id Integer null,
+skills_count Integer null,
+values1 varchar(255) null,
+attitudes Integer null,
+augumentation_learning_mapped_to_report char null,
+is_active char null,
+preferences varchar(255) null,
+trial_and_error varchar(255) null,
+creation_cr varchar(255) null,
+modified_cr varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint augumentation_learning_mapper_pk primary key(data_learning_code));
